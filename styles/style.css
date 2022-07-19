@@ -1,0 +1,131 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+/* CSS reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --poppins-font: 'Poppins', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F3F1FF;
+    font-family: var(--poppins-font);
+}
+/* utility classes  */
+.container{
+    width: 870px;
+    margin: 0 auto;
+}
+.heading {
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+}
+/* navbar start */
+nav{
+    background-color: blue;
+    color: white;
+    padding: 20px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.logo img{
+    width: 40px;
+}
+.menu-items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu-items li{
+    margin: 0px 20px;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar end */
+
+
+/* main styles start here  */
+main{
+    border-radius: 10px;
+    background-color: white;
+}
+/* top player styles start here  */
+.top-players{
+    padding: 30px;
+    margin-top: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+}
+.player-author{
+    font-size: 18px;
+}
+main hr{
+    
+    border: 1px solid #D1D1D1;
+}
+
+/* top players styles end here  */
+
+/* top blogs styles start here  */
+.top-blogs{
+    padding:0 30px 30px 30px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-description{
+    width: 184px;
+    margin-left: 16px;
+}
+.blog-img img{
+    width: 177px;
+    height: 117px;
+}
+.blog-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+}
+/* top blogs styles end here  */
+
+/* main styles end  here  */
