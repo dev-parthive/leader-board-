@@ -102,6 +102,11 @@ main hr{
 .top-blogs{
     padding:0 30px 30px 30px;
 }
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+}
 .blog{
     display: flex;
     align-items: center;
